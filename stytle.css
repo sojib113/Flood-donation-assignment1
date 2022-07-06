@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffff;
+}
+.banner{
+    background-image: url(main1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+        height: 100vh;
+        color: #ffff;
+        font-family: 'Poppins', sans-serif;
+    padding: 10px 80px;
+    margin: 2%;
+}
+.button{
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #FF6600;
+    color:#ffff;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.bluish{
+    color:#80ff35;
+}
+.center{
+    text-align: center;
+}
+.funding{
+    font-family: 'Poppins', sans-serif;
+    margin: 60px 60px;
+    padding: 30px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    background-color: rgb(250, 244, 244);
+    margin-left: 15px;
+    width: 90px;
+    height: 85px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color: rgb(241, 221, 209);
+    margin-left: 15px;
+    width: 90px;
+    height: 85px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF6600;
+    color: #FF6600;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  
+}
+.form input{
+border: none;
+border-bottom: 1px solid black;
+padding: 10px 15px;
+width: 40%;
+}
+#submit{
+    width: 100px;
+}
+.donate_plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent-card{
+    display: flex;
+    margin: 40px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    padding: 40px 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+.card img{
+    width: 47px;
+    height: 47px;
+    margin: 15px 0px;
+}
+
+#card1{
+    background-color: #FE813A;
+}
+#card2{
+    background-color: #FFCF9B;
+}
+#card3{
+background-color: #8F63BF;
+}
+.contribute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    padding: 20px 5px;
+   
+}
+
+.half-width{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
+.half-width img{
+   width: 100%;
+   border-radius: 4px;
+
+}
+.button1{
+    padding: 6px 15px;
+    text-decoration: none;
+    background-color:#FE813A;
+    color: white;
+    border-radius: 4px;
+}
+.half-width p{
+    margin: 20px 0px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(45, 45, 45);
+}
+.contact-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    background-color: rgb(254, 240, 180);
+    width: 40%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.contact input{
+border: none;
+padding: 9px;
+border-radius: 3px 0px 3px 3px;
+background-color: rgb(204, 201, 198);
+}
+.contact button{
+    border: none;
+    padding: 9px 20px;
+border-radius: 0px 3px 3px 0px;
+margin-left: -2px;
+background-color: rgb(236, 80, 80);
+color: white;
+}
+.contact-section p{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(45, 45, 45);
+}
+footer{
+    background-color: rgb(21, 24, 57);
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    color: white;
+}
+footer h1{
+    color: #FF6600;
+}
+footer p{
+    font-size: smaller;
+}
