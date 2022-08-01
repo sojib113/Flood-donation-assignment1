@@ -3,11 +3,11 @@
     padding: 0px;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-color: #ffff;
 }
-.banner{
-    background-image: url(main1.jpg);
+.site-header{
+    background-image: url(ap22156241901348-21d37429b8b1ee3e1e815a473a1091055cfaa11f-s900-c85.webp);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -26,16 +26,18 @@ body{
     padding: 10px 80px;
     margin: 2%;
 }
+
+
 .button{
     padding: 10px 15px;
     text-decoration: none;
-    background-color: #FF6600;
+    background-color: #009dff;
     color:#ffff;
     margin-top: 30px;
     border-radius: 5px;
 }
 .bluish{
-    color:#80ff35;
+    color:#eb35ff;
 }
 .center{
     text-align: center;
@@ -61,17 +63,17 @@ body{
     justify-content: center;
     align-items: center;
 }
-.box2{
-    background-color: rgb(241, 221, 209);
+.box3{
+    background-color: rgb(116, 121, 116);
     margin-left: 15px;
-    width: 90px;
-    height: 85px;
+    width: 80px;
+    height: 90px;
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #FF6600;
-    color: #FF6600;
+    border: 2px solid #00b3ff;
+    color: #ffff;
 }
 .form{
     display: flex;
@@ -90,7 +92,7 @@ width: 40%;
 #submit{
     width: 100px;
 }
-.donate_plan{
+.donation_plan{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +106,7 @@ width: 40%;
 }
 
 .card{
-    width: 25%;
+    width: 15%;
     padding: 40px 20px;
     margin-left: 20px;
     border-radius: 4px;
@@ -116,15 +118,15 @@ width: 40%;
 }
 
 #card1{
-    background-color: #FE813A;
+    background-color: #c0bcb9;
 }
 #card2{
-    background-color: #FFCF9B;
+    background-color: #e3e0dd;
 }
 #card3{
-background-color: #8F63BF;
+background-color: #dfdbe4;
 }
-.contribute{
+.contribution{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,8 +148,8 @@ background-color: #8F63BF;
 .button1{
     padding: 6px 15px;
     text-decoration: none;
-    background-color:#FE813A;
-    color: white;
+    background-color:#3ad0fe;
+    color: rgb(9, 8, 8);
     border-radius: 4px;
 }
 .half-width p{
@@ -164,7 +166,7 @@ background-color: #8F63BF;
     text-align: center;
 }
 .contact{
-    background-color: rgb(254, 240, 180);
+    background-color: rgb(173, 165, 130);
     width: 40%;
     padding: 50px 50px;
     display: flex;
@@ -191,7 +193,7 @@ color: white;
     color: rgb(45, 45, 45);
 }
 footer{
-    background-color: rgb(21, 24, 57);
+    background-color: rgb(7, 8, 16);
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -201,8 +203,17 @@ footer{
     color: white;
 }
 footer h1{
-    color: #FF6600;
+    color: #00ff59;
 }
 footer p{
     font-size: smaller;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ad0fe;
+    color: white;
+ width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
